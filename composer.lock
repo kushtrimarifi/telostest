@@ -1,0 +1,120 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0a9fb11b2346fd0ea08728f0eb090c45",
+    "packages": [
+        {
+            "name": "hisune/echarts-php",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hisune/Echarts-PHP.git",
+                "reference": "b14ebe37736c08353b956eca66cde6a5a2a801c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hisune/Echarts-PHP/zipball/b14ebe37736c08353b956eca66cde6a5a2a801c5",
+                "reference": "b14ebe37736c08353b956eca66cde6a5a2a801c5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hisune\\EchartsPHP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hisune",
+                    "email": "hi@hisune.com",
+                    "homepage": "http://hisune.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A php wrapper for echarts javascript libraries",
+            "homepage": "http://hisune.com",
+            "keywords": [
+                "charts",
+                "echarts",
+                "javascript",
+                "php"
+            ],
+            "support": {
+                "email": "hi@hisune.com",
+                "issues": "https://github.com/hisune/Echarts-PHP/issues",
+                "source": "https://github.com/hisune/Echarts-PHP"
+            },
+            "time": "2022-05-20T02:41:03+00:00"
+        },
+        {
+            "name": "youyiio/php-echarts",
+            "version": "v0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/youyiio/php-echarts.git",
+                "reference": "94e2c77efb93ba13c70cc8016131a5bef047f19f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/youyiio/php-echarts/zipball/94e2c77efb93ba13c70cc8016131a5bef047f19f",
+                "reference": "94e2c77efb93ba13c70cc8016131a5bef047f19f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "beyong\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "cattong",
+                    "email": "aronter@gmail.com"
+                }
+            ],
+            "description": "php-echarts is a php library for the echarts 5.0",
+            "homepage": "https://www.beyongx.com",
+            "keywords": [
+                "chart",
+                "echarts",
+                "echarts5",
+                "javascript",
+                "php",
+                "thinkphp"
+            ],
+            "support": {
+                "email": "aronter@gmail.com",
+                "issues": "https://github.com/youyiio/php-echarts/issues",
+                "source": "https://github.com/youyiio/php-echarts"
+            },
+            "time": "2021-09-22T10:02:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
